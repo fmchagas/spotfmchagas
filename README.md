@@ -1,24 +1,12 @@
-# README
+# spotfmchagas, ouça as melhores músicas
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+spotfmchagas é uma PWA inspirado no Spotify desenvolvida na semana Super Full Stack da OneBitcode
 
-Things you may want to cover:
+Tecnologias utilizada
+-------------
+* Ruby on Rails
+* NodeJs
+* Yarn
+* React
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
