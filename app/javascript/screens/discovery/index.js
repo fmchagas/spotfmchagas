@@ -1,11 +1,15 @@
 import React, { Fragment } from 'react';
+import SectionWrapper from '../../components/common/section_wrapper'
 import NavbarFooter from '../../components/common/navbar_footer';
+import Discovery from '../../components/discovery';
 
 const DisconveryScreen = () => {
   return(
     <Fragment>
-      <div>Discovery Screen</div>
-      <NavbarFooter />   
+      <SectionWrapper>
+        <Discovery />
+      </SectionWrapper>
+      <NavbarFooter />
     </Fragment>
   )
 }
