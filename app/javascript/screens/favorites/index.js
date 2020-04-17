@@ -1,9 +1,11 @@
 import React, { Fragment } from 'react';
+import NavbarFooter from '../../components/common/navbar_footer';
 
 const FavoritesScreen = () => {
   return(
     <Fragment>
-      <div>Home Screen</div>    
+      <div>Favorite Screen</div>
+      <NavbarFooter />  
     </Fragment>
   )
 }
