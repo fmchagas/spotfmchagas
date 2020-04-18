@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react';
 import SectionWrapper from '../../components/common/section_wrapper'
-import NavbarFooter from '../../components/common/navbar_footer';
 import Discovery from '../../components/discovery';
+import NavbarFooter from '../../components/common/navbar_footer';
 
-const DisconveryScreen = () => {
+const DiscoveryScreen = () => {
   return(
     <Fragment>
       <SectionWrapper>
@@ -11,7 +11,6 @@ const DisconveryScreen = () => {
       </SectionWrapper>
       <NavbarFooter />
     </Fragment>
-  )
+  );
 }
-
-export default DisconveryScreen;
+export default DiscoveryScreen;
