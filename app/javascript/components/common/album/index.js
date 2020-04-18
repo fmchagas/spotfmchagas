@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading, Image } from 'react-bulma-components';
 import styled from 'styled-components'
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const DivVSpaced = styled.div`
     margin-top: 10px;
