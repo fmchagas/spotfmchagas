@@ -1,4 +1,4 @@
-class Api::V1::SerchController < ApplicationController
+class Api::V1::SearchController < ApplicationController
   def index
 		@songs = Song.where('title LIKE ?', "%#{params['query']}%")
 		@albums = Album.where('title LIKE ?', "%#{params['query']}%")
